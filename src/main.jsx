@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import HelloWorld from "/Users/scheible/Code/skeleton/client/HelloWorld.jsx";
+import HelloWorld from "../client/HelloWorld.jsx";
 import "./index.css";
 import App from "./App.jsx";
 
