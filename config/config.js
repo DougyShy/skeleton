@@ -1,5 +1,5 @@
 const config = {
-  env: process.env.NODE_ENV || "development", // ** CHECK THIS **
+  env: process.env.NODE_ENV || "dev", // ** CHECK THIS **
   port: process.env.PORT || 3000,
   jwtSecret: process.env.JWT_SECRET || "fossil69",
   mongoUri:
@@ -9,6 +9,6 @@ const config = {
       (process.env.IP || "localhost") +
       ":" +
       (process.env.MONGO_PORT || "27017") +
-      "/vite",
+      "/skeleton",
 };
 export default config;
